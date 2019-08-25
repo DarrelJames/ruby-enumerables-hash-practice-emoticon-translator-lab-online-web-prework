@@ -10,7 +10,7 @@ def load_library(path)
   }
 
   emotes.each do |key, value|
-
+    new_hash['get_meaning'][key] = value[1]
   end
 end
 
